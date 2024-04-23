@@ -1,0 +1,85 @@
+
+/*
+Author: isolano
+Fecha: 08/04/2024 19:00
+Descripcion: Aplicar estilos al titulo h1
+*/
+
+* {
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-align: center;   
+}
+
+.titulo {
+  padding: 50px;
+}
+
+nav ul {
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    list-style-type: none;
+    background-color: cornflowerblue;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a{
+    padding: 20px;
+    width: 250px;
+}
+
+nav ul a:hover{
+    background-color: white;
+}
+
+.contenido {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.contenido .informacion {
+    width: 80%;
+    margin-top: auto;
+}
+
+.contenido .informacion div{
+    width: 80%;
+    padding: 25px;
+    background-color: blanchedalmond;
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+
+.contenido .informacion img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.contenido .variado {
+    width: 40%;
+}
+
+.contenido .variado p {
+    background-color: coral;
+    border-radius: 15px;
+    padding: 15px;
+    height: 600px;
+}
+
+.pie-pagina{
+    background-color: aqua;
+    margin-top: 100px;
+}
+
+.pie-pagina p{
+    padding: 100px;
+}
