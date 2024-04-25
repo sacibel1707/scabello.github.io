@@ -1,0 +1,111 @@
+/*
+Author: URBANO WILLIAMS
+Fecha: 08/04/2024 19:00
+Descripcion: Aplicar estilos al titulo h1
+*/
+* {
+    color:white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    text-align: center;   
+}
+
+
+.titulo {
+  padding: 10px;
+}
+body {
+    background: white;
+    /*background-image: url("fondo_2.jpeg");*/
+  }
+nav ul {
+    width: 105%;
+    margin: auto;
+    list-style-type: none;
+    background-color: #595151;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a{
+    padding: 25px;
+    width: 250px;
+}
+
+nav ul a:hover{
+    background-color:black;
+}
+
+.contenido {
+    display: flex;
+     width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 0;
+   
+}
+
+.contenido .informacion {
+    width: 70%;
+    margin-top: auto;
+    margin-left: 10%;
+}
+
+.contenido .informacion div{
+    
+    width: 70%;
+    padding: 15px;
+    /*background-color: #595151;*/
+    border-radius: 8px;
+    margin-bottom: 0 ;
+}
+
+.contenido .informacion a {
+    color: #595151;
+}
+
+.contenido .informacion p {
+    color: #595151;
+}
+
+.contenido .informacion img{
+    width: 350px;
+    border-radius: 5px;
+}
+
+.contenido .variado {
+    width: 50%;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+
+.contenido .variado div{
+    border-radius: 15px;
+    padding: 5px;
+    height: 600px;
+}
+
+.contenido .variado img{
+
+    padding: 0px;
+
+}
+.contenido .variado h2 {
+  
+    color: #595151;
+
+}
+
+.pie-pagina{
+    background-color:#595151;
+    width: 105%;
+    
+}
+
+.pie-pagina p{
+    padding: 35px;
+}
